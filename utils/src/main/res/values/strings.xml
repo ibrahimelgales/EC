@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rooted_device_alert">For security reason app cannot be run on rooted or emulator devices!</string>
+</resources>

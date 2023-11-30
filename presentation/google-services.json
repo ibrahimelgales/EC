@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "553077415617",
+    "firebase_url": "https://easy-cash-3e927-default-rtdb.firebaseio.com",
+    "project_id": "easy-cash-3e927",
+    "storage_bucket": "easy-cash-3e927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553077415617:android:1a11e8be9f87c22a98fe40",
+        "android_client_info": {
+          "package_name": "com.easycashwallet.tasks.EC"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtLxN4KF0sOqaUJlO0vcbKcjWqBpzHilI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
