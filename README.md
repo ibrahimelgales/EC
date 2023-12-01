@@ -138,7 +138,7 @@ Download App Apk : [EC APP](https://github.com/ibrahimelgales/Files/blob/main/EC
 | ![screenshot](https://github.com/ibrahimelgales/Files/blob/main/01_EC.png?raw=true) | ![screenshot](https://github.com/ibrahimelgales/Files/blob/main/02_EC.png?raw=true) | ![screenshot](https://github.com/ibrahimelgales/Files/blob/main/03_EC.png?raw=true) | ![screenshot](https://github.com/ibrahimelgales/Files/blob/main/04_EC.png?raw=true) |![screenshot](https://github.com/ibrahimelgales/Files/blob/main/05_EC.png?raw=true) |
 
 
-| ![video](https://github.com/ibrahimelgales/Files/blob/main/EC_VIDEO.mp4?raw=true) |
+| ![video](https://github.com/ibrahimelgales/Files/blob/main/ec.gif?raw=true) |
 
 ---------
 
