@@ -46,7 +46,7 @@ class CustomExceptionManager {
         }
 
     }.catch {
-        val message = when(it){
+        val message = when (it) {
             is UnknownHostException -> "Network not available"
             else -> it.message
         }

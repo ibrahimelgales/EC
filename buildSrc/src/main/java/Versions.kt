@@ -25,7 +25,7 @@ object Versions {
             const val composeActivity = "1.8.1"
         }
         object Security {
-            const val crypto = "1.0.0"
+            const val crypto = "1.1.0-alpha01"
         }
     }
     object Google{
