@@ -23,8 +23,7 @@ class CustomExceptionManager {
         msg: String?,
         responseCode: Int,
     ) : EcThrowable(
-        msg,
-        Throwable(
+        msg, Throwable(
             message = ApiErrorResponse(
                 msg,
                 responseCode,
@@ -51,8 +50,7 @@ class CustomExceptionManager {
             else -> it.message
         }
         throw EcThrowable(message, it)
-    }
-        .flowOn(Dispatchers.IO)
+    }.flowOn(Dispatchers.IO)
 
 
     //endregion
@@ -60,8 +58,7 @@ class CustomExceptionManager {
 
     private fun <T> parseSuccessResponse(it: Response<T>) =
         it.body() ?: throw createEcThrowableException(
-            "Unknown Error",
-            it.code()
+            "Unknown Error", it.code()
         )
 
 
@@ -76,9 +73,8 @@ class CustomExceptionManager {
 
 
     private fun extracted(code: Int, throwable: Throwable) = createEcThrowableException(
-        if (shouldEscapeError(throwable)) null else (throwable.message
-            ?: throwable.localizedMessage ?: "Unknown Error"),
-        code
+        if (shouldEscapeError(throwable)) null else (throwable.message ?: throwable.localizedMessage
+        ?: "Unknown Error"), code
     )
 
     private fun shouldEscapeError(throwable: Throwable) = when (throwable) {

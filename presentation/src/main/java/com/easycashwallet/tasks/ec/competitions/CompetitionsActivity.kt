@@ -61,8 +61,8 @@ class CompetitionsActivity : BaseComponentActivity<CompetitionsViewModel>() {
                     baseURL?.let { secureKeyValueLocalStorage.setBaseUrl(it) }
                     token?.let { secureKeyValueLocalStorage.setAuthToken(it) }
                     onLoadDB()
-                })
-        })
+                }, onCancelled = onLoadDB, onConnectFailure = onLoadDB)
+        }, onCancelled = onLoadDB, onConnectFailure = onLoadDB)
     }
 
 }

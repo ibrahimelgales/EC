@@ -52,7 +52,6 @@ abstract class BaseComponentActivity<VM : BaseViewModel> : ComponentActivity() {
     }
 
 
-
     override fun onResume() {
         super.onResume()
         isDebuggingEnabled = SecurityUtils.isUsbDebuggingEnabled(this)
